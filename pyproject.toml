@@ -1,19 +1,19 @@
 [tool.poetry]
-name = "flake8-one-variable-check"
+name = "flake8_one_letter_variables_check"
 version = "0.1.0"
 description = "flake8 plugin for checking out one-letter variables"
-authors = ["Daku-on <113434878+Daku-on@users.noreply.github.com>"]
+authors = ["Dakuon <113434878+Daku-on@users.noreply.github.com>"]
 readme = "README.md"
+license = "MIT"
+repository = "https://github.com/Daku-on/flake8-one-variable-check/"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 flake8 = "^7.0.0"
-flake8-todo = "^0.7"
 
 [tool.poetry.group.dev.dependencies]
 black = "^21.11b1"
 isort = "^5.10.1"
-pyproject-flake8 = "^0.0.1-alpha.2"
 mypy = "^0.910"
 pytest = "^5.2"
 

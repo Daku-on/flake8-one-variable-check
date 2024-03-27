@@ -2,8 +2,8 @@ import ast
 
 
 class OneLetterVariableChecker(object):
-    name = "flake8_one_letter_variables"
-    version = "0.1"
+    name = "flake8_one_letter_variables_check"
+    version = "0.0.1"
     def __init__(self, tree, filename):
         self.tree = tree
         self.filename = filename

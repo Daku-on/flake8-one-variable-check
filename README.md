@@ -1,5 +1,7 @@
 # flake8-one-variable-check
 
+PyPI: https://pypi.org/project/flake8_one_letter_variables_check/
+
 ## TODO
 
 0. Install flake8 (pip etc...)
