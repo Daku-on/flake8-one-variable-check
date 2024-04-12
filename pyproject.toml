@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "flake8_one_letter_variables_check"
-version = "0.1.0"
+version = "0.0.2"
 description = "flake8 plugin for checking out one-letter variables"
 authors = ["Dakuon <113434878+Daku-on@users.noreply.github.com>"]
 readme = "README.md"
@@ -20,6 +20,9 @@ pytest = "^5.2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."flake8.extension"]
+OLV = "flake8_one_letter_variables_check.flake8_one_letter_variables_check:OneLetterVariablesChecker"
 
 [tool.black]
 target-version = ['py39']
